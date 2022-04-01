@@ -23,7 +23,7 @@ async def start(c, m, cb=False):
         send_msg = await m.reply_text("**Pʀᴏᴄᴇssɪɴɢ...**", quote=True)
 
     owner = await c.get_users(int(OWNER_ID))
-    owner_username = owner.username if owner.username else 'AvishkarPatil'
+    owner_username = owner.username if owner.username else 'RK2004'
 
     # start text
     text = f"""**Hᴇʏ!** {m.from_user.mention(style='md')}
